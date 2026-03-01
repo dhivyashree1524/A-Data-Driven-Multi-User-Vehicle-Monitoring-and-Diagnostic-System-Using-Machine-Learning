@@ -1,0 +1,807 @@
+thresholds:
+  temperature: 95
+  gas_level: 15
+  oil_level: 25
+  battery_voltage: 11.5
+  tyre_pressure: 25
+  brake_health: 50
+
+vehicles:
+
+  - vehicle_id: V001
+    driver: Arun
+    location: Chennai
+    speed: 78
+    temperature: 92
+    gas_level: 45
+    oil_level: 60
+    battery_voltage: 12.4
+    tyre_pressure: 32
+    engine_rpm: 3500
+    brake_health: 80
+    fault_code: P0000
+    driver_score: 82
+    accident_tilt: false
+    timestamp: "2026-02-19 10:00:00"
+
+  - vehicle_id: V002
+    driver: Bala
+    location: Coimbatore
+    speed: 85
+    temperature: 98
+    gas_level: 12
+    oil_level: 22
+    battery_voltage: 11.2
+    tyre_pressure: 24
+    engine_rpm: 4800
+    brake_health: 55
+    fault_code: P0217
+    driver_score: 60
+    accident_tilt: false
+    timestamp: "2026-02-19 10:05:00"
+
+  - vehicle_id: V003
+    driver: Charan
+    location: Madurai
+    speed: 65
+    temperature: 80
+    gas_level: 55
+    oil_level: 70
+    battery_voltage: 12.8
+    tyre_pressure: 34
+    engine_rpm: 3000
+    brake_health: 88
+    fault_code: P0000
+    driver_score: 90
+    accident_tilt: false
+    timestamp: "2026-02-19 10:10:00"
+
+  - vehicle_id: V004
+    driver: Deepa
+    location: Salem
+    speed: 90
+    temperature: 105
+    gas_level: 8
+    oil_level: 18
+    battery_voltage: 10.9
+    tyre_pressure: 22
+    engine_rpm: 6200
+    brake_health: 40
+    fault_code: P0300
+    driver_score: 50
+    accident_tilt: true
+    timestamp: "2026-02-19 10:15:00"
+
+  - vehicle_id: V005
+    driver: Ezhil
+    location: Trichy
+    speed: 72
+    temperature: 88
+    gas_level: 38
+    oil_level: 55
+    battery_voltage: 12.1
+    tyre_pressure: 30
+    engine_rpm: 3400
+    brake_health: 75
+    fault_code: P0420
+    driver_score: 78
+    accident_tilt: false
+    timestamp: "2026-02-19 10:20:00"
+
+  - vehicle_id: V006
+    driver: Farooq
+    location: Tirunelveli
+    speed: 95
+    temperature: 101
+    gas_level: 10
+    oil_level: 20
+    battery_voltage: 11.0
+    tyre_pressure: 23
+    engine_rpm: 5900
+    brake_health: 45
+    fault_code: P0171
+    driver_score: 55
+    accident_tilt: true
+    timestamp: "2026-02-19 10:25:00"
+
+  - vehicle_id: V007
+    driver: Gokul
+    location: Erode
+    speed: 60
+    temperature: 76
+    gas_level: 70
+    oil_level: 80
+    battery_voltage: 13.0
+    tyre_pressure: 35
+    engine_rpm: 2500
+    brake_health: 92
+    fault_code: P0000
+    driver_score: 92
+    accident_tilt: false
+    timestamp: "2026-02-19 10:30:00"
+
+  - vehicle_id: V008
+    driver: Harini
+    location: Vellore
+    speed: 82
+    temperature: 94
+    gas_level: 20
+    oil_level: 40
+    battery_voltage: 11.7
+    tyre_pressure: 28
+    engine_rpm: 4100
+    brake_health: 68
+    fault_code: P0500
+    driver_score: 72
+    accident_tilt: false
+    timestamp: "2026-02-19 10:35:00"
+
+  - vehicle_id: V009
+    driver: Ibrahim
+    location: Thanjavur
+    speed: 70
+    temperature: 89
+    gas_level: 33
+    oil_level: 50
+    battery_voltage: 12.0
+    tyre_pressure: 29
+    engine_rpm: 3600
+    brake_health: 70
+    fault_code: P0000
+    driver_score: 75
+    accident_tilt: false
+    timestamp: "2026-02-19 10:40:00"
+
+  - vehicle_id: V010
+    driver: Janani
+    location: Kanyakumari
+    speed: 88
+    temperature: 102
+    gas_level: 9
+    oil_level: 19
+    battery_voltage: 11.1
+    tyre_pressure: 23
+    engine_rpm: 5300
+    brake_health: 42
+    fault_code: P0301
+    driver_score: 52
+    accident_tilt: true
+    timestamp: "2026-02-19 10:45:00"
+
+  - vehicle_id: V011
+    driver: Karthik
+    location: Chennai
+    speed: 68
+    temperature: 84
+    gas_level: 50
+    oil_level: 65
+    battery_voltage: 12.5
+    tyre_pressure: 33
+    engine_rpm: 3100
+    brake_health: 82
+    fault_code: P0000
+    driver_score: 85
+    accident_tilt: false
+    timestamp: "2026-02-19 11:00:00"
+
+  - vehicle_id: V012
+    driver: Lavanya
+    location: Coimbatore
+    speed: 92
+    temperature: 99
+    gas_level: 14
+    oil_level: 24
+    battery_voltage: 11.3
+    tyre_pressure: 25
+    engine_rpm: 5000
+    brake_health: 53
+    fault_code: P0217
+    driver_score: 61
+    accident_tilt: false
+    timestamp: "2026-02-19 11:05:00"
+
+  - vehicle_id: V013
+    driver: Manoj
+    location: Madurai
+    speed: 55
+    temperature: 72
+    gas_level: 75
+    oil_level: 85
+    battery_voltage: 13.1
+    tyre_pressure: 36
+    engine_rpm: 2200
+    brake_health: 94
+    fault_code: P0000
+    driver_score: 93
+    accident_tilt: false
+    timestamp: "2026-02-19 11:10:00"
+
+  - vehicle_id: V014
+    driver: Nithya
+    location: Salem
+    speed: 89
+    temperature: 103
+    gas_level: 7
+    oil_level: 17
+    battery_voltage: 10.8
+    tyre_pressure: 21
+    engine_rpm: 6100
+    brake_health: 38
+    fault_code: P0300
+    driver_score: 48
+    accident_tilt: true
+    timestamp: "2026-02-19 11:15:00"
+
+  - vehicle_id: V015
+    driver: Omprakash
+    location: Trichy
+    speed: 74
+    temperature: 90
+    gas_level: 28
+    oil_level: 44
+    battery_voltage: 12.2
+    tyre_pressure: 30
+    engine_rpm: 3700
+    brake_health: 73
+    fault_code: P0420
+    driver_score: 77
+    accident_tilt: false
+    timestamp: "2026-02-19 11:20:00"
+
+  - vehicle_id: V016
+    driver: Priya
+    location: Tirunelveli
+    speed: 96
+    temperature: 104
+    gas_level: 9
+    oil_level: 20
+    battery_voltage: 11.0
+    tyre_pressure: 23
+    engine_rpm: 6000
+    brake_health: 44
+    fault_code: P0171
+    driver_score: 54
+    accident_tilt: true
+    timestamp: "2026-02-19 11:25:00"
+
+  - vehicle_id: V017
+    driver: Qasim
+    location: Erode
+    speed: 62
+    temperature: 79
+    gas_level: 68
+    oil_level: 78
+    battery_voltage: 12.9
+    tyre_pressure: 35
+    engine_rpm: 2600
+    brake_health: 90
+    fault_code: P0000
+    driver_score: 91
+    accident_tilt: false
+    timestamp: "2026-02-19 11:30:00"
+
+  - vehicle_id: V018
+    driver: Revathi
+    location: Vellore
+    speed: 80
+    temperature: 95
+    gas_level: 18
+    oil_level: 38
+    battery_voltage: 11.8
+    tyre_pressure: 27
+    engine_rpm: 4200
+    brake_health: 67
+    fault_code: P0500
+    driver_score: 73
+    accident_tilt: false
+    timestamp: "2026-02-19 11:35:00"
+
+  - vehicle_id: V019
+    driver: Suresh
+    location: Thanjavur
+    speed: 69
+    temperature: 87
+    gas_level: 40
+    oil_level: 55
+    battery_voltage: 12.1
+    tyre_pressure: 30
+    engine_rpm: 3500
+    brake_health: 72
+    fault_code: P0000
+    driver_score: 76
+    accident_tilt: false
+    timestamp: "2026-02-19 11:40:00"
+
+  - vehicle_id: V020
+    driver: Tamilselvi
+    location: Kanyakumari
+    speed: 87
+    temperature: 100
+    gas_level: 10
+    oil_level: 19
+    battery_voltage: 11.1
+    tyre_pressure: 23
+    engine_rpm: 5400
+    brake_health: 41
+    fault_code: P0301
+    driver_score: 53
+    accident_tilt: true
+    timestamp: "2026-02-19 11:45:00"
+  - vehicle_id: V021
+    driver: Udhay
+    location: Chennai
+    speed: 75
+    temperature: 91
+    gas_level: 42
+    oil_level: 62
+    battery_voltage: 12.3
+    tyre_pressure: 31
+    engine_rpm: 3600
+    brake_health: 78
+    fault_code: P0000
+    driver_score: 83
+    accident_tilt: false
+    timestamp: "2026-02-19 12:00:00"
+
+  - vehicle_id: V022
+    driver: Varun
+    location: Coimbatore
+    speed: 88
+    temperature: 99
+    gas_level: 13
+    oil_level: 23
+    battery_voltage: 11.4
+    tyre_pressure: 25
+    engine_rpm: 4900
+    brake_health: 54
+    fault_code: P0217
+    driver_score: 62
+    accident_tilt: false
+    timestamp: "2026-02-19 12:05:00"
+
+  - vehicle_id: V023
+    driver: Yasmin
+    location: Madurai
+    speed: 63
+    temperature: 82
+    gas_level: 58
+    oil_level: 74
+    battery_voltage: 12.7
+    tyre_pressure: 34
+    engine_rpm: 2900
+    brake_health: 87
+    fault_code: P0000
+    driver_score: 89
+    accident_tilt: false
+    timestamp: "2026-02-19 12:10:00"
+
+  - vehicle_id: V024
+    driver: Zahir
+    location: Salem
+    speed: 94
+    temperature: 106
+    gas_level: 6
+    oil_level: 16
+    battery_voltage: 10.7
+    tyre_pressure: 21
+    engine_rpm: 6400
+    brake_health: 37
+    fault_code: P0300
+    driver_score: 47
+    accident_tilt: true
+    timestamp: "2026-02-19 12:15:00"
+
+  - vehicle_id: V025
+    driver: Anitha
+    location: Trichy
+    speed: 70
+    temperature: 87
+    gas_level: 36
+    oil_level: 52
+    battery_voltage: 12.0
+    tyre_pressure: 30
+    engine_rpm: 3300
+    brake_health: 74
+    fault_code: P0420
+    driver_score: 79
+    accident_tilt: false
+    timestamp: "2026-02-19 12:20:00"
+
+  - vehicle_id: V026
+    driver: Bharath
+    location: Tirunelveli
+    speed: 97
+    temperature: 103
+    gas_level: 9
+    oil_level: 20
+    battery_voltage: 11.0
+    tyre_pressure: 22
+    engine_rpm: 6100
+    brake_health: 43
+    fault_code: P0171
+    driver_score: 53
+    accident_tilt: true
+    timestamp: "2026-02-19 12:25:00"
+
+  - vehicle_id: V027
+    driver: Chitra
+    location: Erode
+    speed: 58
+    temperature: 75
+    gas_level: 72
+    oil_level: 83
+    battery_voltage: 13.0
+    tyre_pressure: 36
+    engine_rpm: 2400
+    brake_health: 93
+    fault_code: P0000
+    driver_score: 94
+    accident_tilt: false
+    timestamp: "2026-02-19 12:30:00"
+
+  - vehicle_id: V028
+    driver: Dinesh
+    location: Vellore
+    speed: 83
+    temperature: 96
+    gas_level: 19
+    oil_level: 39
+    battery_voltage: 11.8
+    tyre_pressure: 27
+    engine_rpm: 4300
+    brake_health: 66
+    fault_code: P0500
+    driver_score: 71
+    accident_tilt: false
+    timestamp: "2026-02-19 12:35:00"
+
+  - vehicle_id: V029
+    driver: Elango
+    location: Thanjavur
+    speed: 71
+    temperature: 88
+    gas_level: 34
+    oil_level: 51
+    battery_voltage: 12.2
+    tyre_pressure: 29
+    engine_rpm: 3550
+    brake_health: 71
+    fault_code: P0000
+    driver_score: 77
+    accident_tilt: false
+    timestamp: "2026-02-19 12:40:00"
+
+  - vehicle_id: V030
+    driver: Fathima
+    location: Kanyakumari
+    speed: 89
+    temperature: 101
+    gas_level: 11
+    oil_level: 19
+    battery_voltage: 11.1
+    tyre_pressure: 23
+    engine_rpm: 5500
+    brake_health: 42
+    fault_code: P0301
+    driver_score: 51
+    accident_tilt: true
+    timestamp: "2026-02-19 12:45:00"
+
+  - vehicle_id: V031
+    driver: Ganesh
+    location: Chennai
+    speed: 76
+    temperature: 90
+    gas_level: 48
+    oil_level: 66
+    battery_voltage: 12.4
+    tyre_pressure: 32
+    engine_rpm: 3650
+    brake_health: 79
+    fault_code: P0000
+    driver_score: 84
+    accident_tilt: false
+    timestamp: "2026-02-19 13:00:00"
+
+  - vehicle_id: V032
+    driver: Hema
+    location: Coimbatore
+    speed: 86
+    temperature: 97
+    gas_level: 14
+    oil_level: 24
+    battery_voltage: 11.3
+    tyre_pressure: 25
+    engine_rpm: 4850
+    brake_health: 52
+    fault_code: P0217
+    driver_score: 63
+    accident_tilt: false
+    timestamp: "2026-02-19 13:05:00"
+
+  - vehicle_id: V033
+    driver: Imran
+    location: Madurai
+    speed: 61
+    temperature: 81
+    gas_level: 60
+    oil_level: 76
+    battery_voltage: 12.8
+    tyre_pressure: 34
+    engine_rpm: 2800
+    brake_health: 89
+    fault_code: P0000
+    driver_score: 88
+    accident_tilt: false
+    timestamp: "2026-02-19 13:10:00"
+
+  - vehicle_id: V034
+    driver: Jaya
+    location: Salem
+    speed: 93
+    temperature: 107
+    gas_level: 5
+    oil_level: 15
+    battery_voltage: 10.6
+    tyre_pressure: 20
+    engine_rpm: 6500
+    brake_health: 35
+    fault_code: P0300
+    driver_score: 46
+    accident_tilt: true
+    timestamp: "2026-02-19 13:15:00"
+
+  - vehicle_id: V035
+    driver: Kavin
+    location: Trichy
+    speed: 73
+    temperature: 86
+    gas_level: 39
+    oil_level: 54
+    battery_voltage: 12.1
+    tyre_pressure: 30
+    engine_rpm: 3350
+    brake_health: 76
+    fault_code: P0420
+    driver_score: 80
+    accident_tilt: false
+    timestamp: "2026-02-19 13:20:00"
+
+  - vehicle_id: V036
+    driver: Lalitha
+    location: Tirunelveli
+    speed: 98
+    temperature: 104
+    gas_level: 8
+    oil_level: 19
+    battery_voltage: 10.9
+    tyre_pressure: 22
+    engine_rpm: 6200
+    brake_health: 41
+    fault_code: P0171
+    driver_score: 52
+    accident_tilt: true
+    timestamp: "2026-02-19 13:25:00"
+
+  - vehicle_id: V037
+    driver: Murugan
+    location: Erode
+    speed: 59
+    temperature: 74
+    gas_level: 74
+    oil_level: 82
+    battery_voltage: 13.1
+    tyre_pressure: 36
+    engine_rpm: 2450
+    brake_health: 95
+    fault_code: P0000
+    driver_score: 95
+    accident_tilt: false
+    timestamp: "2026-02-19 13:30:00"
+
+  - vehicle_id: V038
+    driver: Nandhini
+    location: Vellore
+    speed: 84
+    temperature: 95
+    gas_level: 17
+    oil_level: 37
+    battery_voltage: 11.7
+    tyre_pressure: 27
+    engine_rpm: 4400
+    brake_health: 65
+    fault_code: P0500
+    driver_score: 70
+    accident_tilt: false
+    timestamp: "2026-02-19 13:35:00"
+
+  - vehicle_id: V039
+    driver: Omkar
+    location: Thanjavur
+    speed: 72
+    temperature: 89
+    gas_level: 35
+    oil_level: 50
+    battery_voltage: 12.2
+    tyre_pressure: 29
+    engine_rpm: 3600
+    brake_health: 73
+    fault_code: P0000
+    driver_score: 78
+    accident_tilt: false
+    timestamp: "2026-02-19 13:40:00"
+
+  - vehicle_id: V040
+    driver: Pavithra
+    location: Kanyakumari
+    speed: 90
+    temperature: 102
+    gas_level: 10
+    oil_level: 18
+    battery_voltage: 11.0
+    tyre_pressure: 23
+    engine_rpm: 5600
+    brake_health: 40
+    fault_code: P0301
+    driver_score: 50
+    accident_tilt: true
+    timestamp: "2026-02-19 13:45:00"
+  - vehicle_id: V041
+    driver: Rajesh
+    location: Chennai
+    speed: 78
+    temperature: 92
+    gas_level: 44
+    oil_level: 61
+    battery_voltage: 12.3
+    tyre_pressure: 31
+    engine_rpm: 3700
+    brake_health: 77
+    fault_code: P0000
+    driver_score: 82
+    accident_tilt: false
+    timestamp: "2026-02-19 14:00:00"
+
+  - vehicle_id: V042
+    driver: Sandhya
+    location: Coimbatore
+    speed: 87
+    temperature: 100
+    gas_level: 12
+    oil_level: 22
+    battery_voltage: 11.2
+    tyre_pressure: 24
+    engine_rpm: 5000
+    brake_health: 53
+    fault_code: P0217
+    driver_score: 61
+    accident_tilt: false
+    timestamp: "2026-02-19 14:05:00"
+
+  - vehicle_id: V043
+    driver: Tharun
+    location: Madurai
+    speed: 64
+    temperature: 83
+    gas_level: 59
+    oil_level: 75
+    battery_voltage: 12.8
+    tyre_pressure: 35
+    engine_rpm: 2950
+    brake_health: 88
+    fault_code: P0000
+    driver_score: 90
+    accident_tilt: false
+    timestamp: "2026-02-19 14:10:00"
+
+  - vehicle_id: V044
+    driver: Uma
+    location: Salem
+    speed: 95
+    temperature: 108
+    gas_level: 4
+    oil_level: 14
+    battery_voltage: 10.5
+    tyre_pressure: 20
+    engine_rpm: 6600
+    brake_health: 34
+    fault_code: P0300
+    driver_score: 45
+    accident_tilt: true
+    timestamp: "2026-02-19 14:15:00"
+
+  - vehicle_id: V045
+    driver: Vignesh
+    location: Trichy
+    speed: 74
+    temperature: 88
+    gas_level: 37
+    oil_level: 55
+    battery_voltage: 12.1
+    tyre_pressure: 30
+    engine_rpm: 3400
+    brake_health: 75
+    fault_code: P0420
+    driver_score: 81
+    accident_tilt: false
+    timestamp: "2026-02-19 14:20:00"
+
+  - vehicle_id: V046
+    driver: Waseem
+    location: Tirunelveli
+    speed: 99
+    temperature: 105
+    gas_level: 7
+    oil_level: 18
+    battery_voltage: 10.8
+    tyre_pressure: 21
+    engine_rpm: 6300
+    brake_health: 39
+    fault_code: P0171
+    driver_score: 51
+    accident_tilt: true
+    timestamp: "2026-02-19 14:25:00"
+
+  - vehicle_id: V047
+    driver: Xavier
+    location: Erode
+    speed: 60
+    temperature: 76
+    gas_level: 73
+    oil_level: 84
+    battery_voltage: 13.0
+    tyre_pressure: 36
+    engine_rpm: 2500
+    brake_health: 94
+    fault_code: P0000
+    driver_score: 96
+    accident_tilt: false
+    timestamp: "2026-02-19 14:30:00"
+
+  - vehicle_id: V048
+    driver: Yazhini
+    location: Vellore
+    speed: 85
+    temperature: 96
+    gas_level: 16
+    oil_level: 36
+    battery_voltage: 11.6
+    tyre_pressure: 27
+    engine_rpm: 4500
+    brake_health: 64
+    fault_code: P0500
+    driver_score: 69
+    accident_tilt: false
+    timestamp: "2026-02-19 14:35:00"
+
+  - vehicle_id: V049
+    driver: Zoya
+    location: Thanjavur
+    speed: 73
+    temperature: 90
+    gas_level: 33
+    oil_level: 49
+    battery_voltage: 12.2
+    tyre_pressure: 29
+    engine_rpm: 3650
+    brake_health: 72
+    fault_code: P0000
+    driver_score: 79
+    accident_tilt: false
+    timestamp: "2026-02-19 14:40:00"
+
+  - vehicle_id: V050
+    driver: Arjun
+    location: Kanyakumari
+    speed: 91
+    temperature: 103
+    gas_level: 9
+    oil_level: 17
+    battery_voltage: 10.9
+    tyre_pressure: 22
+    engine_rpm: 5700
+    brake_health: 38
+    fault_code: P0301
+    driver_score: 49
+    accident_tilt: true
+    timestamp: "2026-02-19 14:45:00"
